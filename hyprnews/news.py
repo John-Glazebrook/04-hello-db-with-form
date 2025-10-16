@@ -56,4 +56,5 @@ def new_article():
             add_article(title, content, url)
             return redirect(url_for("index"))
 
+
     return render_template("news/form.html")
